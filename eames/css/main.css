@@ -1,0 +1,179 @@
+/*Full page styling*/
+* {
+	font-family: 'Lato', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+body {
+	margin: auto;
+}
+
+/*Navigation bar styling*/
+nav {
+	display: block;
+	margin: 0 1%;
+	padding: 1% 5%;
+}
+nav div {
+	display: inline-block;
+}
+nav div:last-child {
+	float: right;
+}
+nav div a {
+	color: #464646;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+}
+nav input {
+	border: none;
+}
+
+/*Title Section Styling*/
+header {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+header img {
+	margin: auto;
+	display: block;
+	border-radius: 53%;
+	width: 5%;
+ }
+ #author {
+ 	display: block;
+ 	padding: 3% 0;
+ 	font-size: 16px;
+ }
+ #date {
+ 	display: block;
+ 	color: #5f5f5f;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 5% 0 3%;
+ }
+h1 {
+	color: #242424;
+    font-family: 'Lora', serif;
+    font-size: 60px;
+    letter-spacing: -1px;
+    line-height: 60px;
+}
+/**Underline also used in bulk of page*/
+.underline {
+	border: 1px solid #c79852;
+	display: block;
+	width: 7%;
+	margin: 3% auto;
+}
+
+/*Bulk of Page Styling*/
+section {
+	text-align: center;
+}
+p {
+	color: #565656;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: left;
+    margin: 3% auto;
+    padding: 0 20%;
+}
+.quote {
+	font-family: 'Petit Formal Script', cursive;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;  
+}
+#chair3 {
+	position: relative;
+	bottom: 211px;
+}
+#chair4 {
+	position: relative;
+	bottom: 205px;
+}
+
+/*Footer for Bulk of Page Styling*/
+/**Footer div styling also used in final footer*/
+footer div {
+	color: #565656;
+	text-align: center;
+    width: 80%;
+}
+.fa-heart {
+	color: #E04F4A;
+	margin-right: 3px;
+}
+.likes {
+    margin: 2% auto;	
+}
+textarea {
+	background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-color: #e5e5e5;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    color: #555;
+    font-size: 14px;
+    line-height: 1.42857143;
+    padding: 6px 12px;
+    width: 79%;
+    display: block;
+    margin: 0 auto;
+}
+.button{
+	overflow: auto;
+	margin: 0 auto;
+	padding-bottom: 3%;
+}
+button {
+	border: none;
+    background: white;
+    color: #565656;
+    font-size: 12px;
+    padding: 0 5px 0 0;
+}
+.left-button {
+	float: left;	
+}
+#right-button {
+	float: right;
+}
+
+/*Final Page Footer with Article Navigation Styling*/
+#final{
+	background-color: #F8F9FD;
+	width: 100%;
+	margin-bottom: 3%;
+}
+ .previous, .next, a{
+	text-decoration: none;
+	color: #434345;
+	font-weight: bold;
+}
+.previous {
+	text-align: left;
+	padding: 5% 0 2% 10%;
+	width: 40%;
+	float: left;	
+}
+.previous  p{
+	padding: 0 0;
+	font-weight: normal;
+}
+.next{
+	width: 40%;
+	text-align: right;
+	padding: 5% 10% 2% 0;
+	margin-left: 50%;	
+}
+.next p{
+	text-align: right;
+	padding: 0 0;
+	font-weight: normal;
+}
